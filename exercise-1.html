@@ -10,8 +10,15 @@
   const numbers = [3, 62, 234, 7, 23, 74, 23, 76, 92]
 
   // use the array filter method to create an array of the numbers greater than `70`
+function greaterThan70(value) {
+  return value > 70;
+}
+
+const numberFiltered = numbers.filter(greaterThan70);
 
   // log the filtered array to the console
+console.log(numberFiltered);
+  
 </script>
 </body>
 </html>
